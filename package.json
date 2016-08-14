@@ -1,0 +1,27 @@
+{
+  "name": "webpack-babel-es6",
+  "version": "0.0.1",
+  "description": "test webpack babel technologies",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "jade": "jade index.jade index.html",
+    "babel": "babel scripts -d lib",
+    "webpack": "webpack"
+  },
+  "author": "pigeonT",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {}
+}
